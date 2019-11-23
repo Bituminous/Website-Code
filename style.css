@@ -1,0 +1,374 @@
+﻿body {
+	background-color: #fafafa;
+	font-family: 'Muli', sans-serif;
+	margin: 0 auto;
+	padding: 0;
+}
+header {
+	width: 100%;
+	height: 6.25em;
+	display: flex;
+	background: #562f99;
+}
+.headone {
+	height: 100%;
+	width: auto;
+}
+.headtwo {
+	display: flex;
+	align-items: flex-end;
+
+}
+
+.headtwo img {
+	height: 3.125em;
+	width: auto;
+}
+.headthree {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	flex-grow: 2;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 15%;
+	margin-bottom: 0;
+}
+.headthree ul {
+	display: flex;
+	flex-grow: 2;
+	flex-direction: row;
+	padding-left: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	margin: 0;
+	height: 100%;
+
+}
+.headthree li {
+	list-style-type: none;
+}
+.headthree a {
+	color: #ffffff;
+	line-height: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgba(0, 0, 0, 0);
+	display: block;
+	text-decoration: none;
+	font-size: 1.5em;
+	vertical-align: middle;
+}
+
+.headthree a:hover {
+	background-color: #9985B7;
+}
+/* Old navigation bar
+.nav {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.nav img {
+	width: 5%;
+}
+.nav ul {
+	margin: 0 0 0 0;
+	display: flex;
+	justify-content: flex-end;
+}
+.nav li {
+	list-style-type: none;
+	flex-grow: 1;
+	height: 50px;
+}
+.nav a{
+	color: #ffffff;
+	background-color: #000000;
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+*/
+
+/* For the dropdown tab
+
+.droplink::after {
+	content: "\00a0 ▼";
+}
+.droplist {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	width: 20%;
+}
+.droplist a {
+	text-align: left;
+}
+.dropdown:hover .droplist {
+	display: block;
+}
+*/
+
+/* Old Navbar color
+background-color: #725898;*/
+.hero-banner {
+	width:  100%;
+	height: 750px;
+	background: #673AB7;
+	background-image: url(images/hero-crowd.JPG);
+	background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 50% 15%;
+}
+.hero-banner img{
+	width: 100%;
+
+}
+.container {
+	margin: 0 0 0 0;
+	background-color: #ffffff;
+	overflow: auto;
+}
+
+.container h1 {
+		font-family: 'Overpass', sans-serif;
+}
+
+#hero{
+	color: #feff00;
+	font-size: 60px;
+	background: linear-gradient(90deg, #52357c 40%, #9985B7);
+	padding: 10px 0 0 10%;
+	margin: 0 0 0 0;
+	box-shadow: 0px 3px 12px 3px rgba(0,0,0,0.3);
+}
+
+#plain h1 {
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.container-text {
+	color: #000000;
+	margin-top: 2%;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 30px;
+	line-height: 1.5;
+}
+
+/* Array of photos on the home page */
+
+.photogrid {
+display: flex;
+flex-flow: row;
+justify-content: space-between;
+margin: 10px 0 10px 0;
+}
+
+.photogrid-pic {
+width: 32%;
+margin: 1% 0 0 0;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+.photogrid-pic img {
+	width: 100%;
+	height: auto;
+	border: 1px #e3e3e3 solid;
+}
+/* Sponsor page */
+.sponsors {
+	text-align: center;
+	font-size: 22px;
+	padding-top: 20px;
+	background-color: #52357c;
+	color: #ffffff;
+	margin: 5px 5px 5px 5px;
+	border-radius: 5px;
+}
+.sponsors img{
+	width: 100%;
+}
+footer {
+	width: 100%;
+	background-color: white;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+}
+/* purple triangle behind footer logo */
+
+footer::before,
+footer::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-color: transparent;
+    border-style: solid;
+	z-index: 0;
+}
+
+footer::before {
+    border-width: 8.85em;
+    border-left-color: #9985B7;
+    border-bottom-color: #9985B7;
+}
+
+footer::after {
+	border-width: 8.5em;
+    border-left-color: #52357c;
+    border-bottom-color: #52357c;
+}
+
+
+.footer-column {
+	max-width: 25%;
+	z-index: 1;
+}
+.footer-column a {
+	text-decoration: none;
+}
+.column-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0 0 0;
+}
+#footerlogo {
+display: flex;
+	align-items: flex-end;
+}
+#footerlogo img{
+	width: 8em;
+	margin: 10px;
+}
+
+/*social media links in footer*/
+.media-icons {
+	height: auto;
+	width: 50px;
+	vertical-align: middle;
+}
+
+.exrsrc {
+	display: flex;
+	height: 100%;
+	justify-content: flex-start;
+}
+.exrsrc p {
+	padding: 0 10px 5px 10px;
+	margin-top: 0;
+	width: 80%;
+}
+
+.exrsrc a{
+	width: 150px;
+	height: 150px;
+	position: relative;
+}
+
+.exrsrc img {
+	width: 100%;
+	top: 0;
+	position: absolute;
+}
+
+/*Adobe Spark imbed*/
+.asp-embed-link {
+	width: 100%;
+}
+#spark {
+ margin: 20px 0 20px 0;
+}
+/* Team page*/
+#team-mentor {
+	display: flex;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 30px;
+	line-height: 1.5;"
+	flex-wrap: wrap;
+}
+#team-mentor div{
+	display: flex;
+	justify-content: flex-start;
+	background-color: #e1e1e1;
+	padding: 5px;
+	margin: 3px;
+	width: 50%;
+}
+/*SHRINK HEIGHT OF COLUMN AS WINDOW WIDTH DECREASES*/
+.team-array {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	align-content: space-between;
+	width: 100%;
+}
+.team-column {
+	background-color: #e1e1e1;
+	margin: 10px;
+	width: 15%;
+	text-align: center;
+	box-shadow: 0 0	10px rgba(0,0,0,0.4);
+	border-radius: 10px;
+	overflow: hidden;
+}
+.team-column:hover {
+	background-color: #cacaca;
+	cursor: pointer;
+}
+.team-column-pic {
+	height: 380px;
+}
+.team-column a, .team-column a:visited {
+	text-decoration: none;
+	color: black;
+}
+.team-column:hover a {
+	text-decoration: none;
+	color: white;
+}
+#p-hard {
+	background-image: url(images/teamhardware.jpg);
+	background-position: 50% 35%;
+	background-size: 250%;
+}
+#p-soft {
+	background-image: url(images/teamsoftware.jpg);
+	background-position: 90% 100%;
+	background-size: 120%;
+}
+#p-prb {
+	background-image: url(images/teamprb.jpg);
+	background-position: 50% 100%;
+	background-size: 120%;
+}
+/* Window scaling properties */
+@media (max-width: 1350px) {
+.headthree {
+	background-color: #341c5c;
+	margin-left: 0;
+	margin-bottom: 20px;
+	flex-basis: content;
+}
+.team-array {
+	font-size: 12px;
+}
+.team-column-pic {
+	height: 300px;
+}
+
+
+}
+@media (max-width: 1100px) {
+.team-column-pic {
+	height: 200px;
+}
+
+
+}
