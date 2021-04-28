@@ -463,19 +463,19 @@ display: flex;
   margin: 10px;
 }
 #p-hard {
-	background-image: url(images/team/teamhardware.jpg);
+	background-image: url(images/Team/teamhardware.jpg);
 }
 #p-soft {
-	background-image: url(images/team/teamsoftware.jpg);
+	background-image: url(images/Team/teamsoftware.jpg);
 }
 #p-prb {
-	background-image: url(images/team/teamprb.jpg);
+	background-image: url(images/Team/teamprb.jpg);
 }
 #p-cad {
-	background-image: url(images/team/team-cad.jpeg);
+	background-image: url(images/Team/team-cad.jpeg);
 }
 #p-strat {
-	background-image: url(images/team/team-strat.jpg);
+	background-image: url(images/Team/team-strat.jpg);
 }
 /* BLOG */
 
