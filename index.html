@@ -1,126 +1,132 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<!--
-Other FRC teams for reference: https://sagehillrobotics.org/ team330.org
--->
-		<title>
-Team 7230 Mythic Mechanix
-</title>
-		<link href="https://fonts.googleapis.com/css?family=Muli|Overpass&display=swap" rel="stylesheet">
-		<link href="style.css" rel="stylesheet">
-		<link rel="icon" href="images/UnicornICON.png">
-			</head>
-			<body>
-				<header>
-			<!-- navigation bar ▼ -->
-			<img class="headone" src="images/UnicornICON.png">
-			<div class="headtwo">
-				<a href="index.html">
-				<img src="images/Mythic Mechanix Text Logo.png">
-				</a>
-			</div>
-			<div class="headthree">
-				<ul>
-					<li>
-						<a href="index.html">Home</a>
-					</li>
-					<li>
-						<a href="sponsorship.html">Sponsorship</a>
-					</li>
-					<!-- Dropdown tab
-						<li class="dropdown">
-						  <a href="FRC Website_Home.html" class="droplink">Sponsorship</a>
-						  <div class="droplist">
-						    <a href="FRC Website_Home.html">Sponsors</a>
-						    <a href="FRC Website_Home.html">Become a Sponsor</a>
-						  </div>
-						</li>
-						-->
-					<li>
-						<a href="resources.html">Resources</a>
-					</li>
-					<li>
-						<a href="join.html">Join</a>
-					</li>
-					<li>
-						<a href="team.html">Team</a>
-					</li>
-				</ul>
-			</div>
-		</header>
-					<div class="hero-banner">
-
-						</div>
-						<div class="container">
-						<h1 id="hero">MYTHIC MECHANIX TEAM 7230</h1>
-						<div class="container-text">
-							<p>Irvine High School’s robotics team is a student-run initiative led by passionate and driven leaders. Comprised of 35 student members, two industry mentors, one teacher mentor, and a team parent, Team 7230 believes in the engineering process, and maintaining a collaborative environment. Our members gain valuable skills in hardware, programming, CAD modeling, strategy, and marketing. Since the team’s creation last year, we have participated in multiple different competitions, including off season events such as Beach Blitz. Teams compete from all over the world against thousands of high schools in the First Robotics Competition. They are all given six weeks to program, build, and design a robot to complete the challenges of the current year’s competition.
-						</p>
-						<div class="photogrid">
-							<div class="photogrid-pic" id="pgp1"><img src="images/robotbody.jpg"></div>
-							<div class="photogrid-pic" id="pgp2"><img src="images/rearshotcrowd.jpg"></div>
-							<div class="photogrid-pic" id="pgp3"><img src="images/teamworking.jpeg"></div>
-						</div>
-						<h2>About Us</h2>
-						<p>Mythic Mechanix is Irvine High’s robotics team that competes against other robotics teams in field games hosted by an organization called FIRST. Through competitions and collaboration, students learn core engineering skills such as brainstorming, manufacturing, building, programming, CAD modeling, and marketing. The team is composed of 6 subteams (hardware, software, CAD, game strategy, and fundraising) which work together to complete a robot each year for different themes.</p>
-						</div>
-						</div>
-
-
-						<footer>
-
-			<div class="column-container">
-				<div class="footer-column" id="footerlogo">
-					<a href="index.html">
-					<img src="images/UnicornICON.png">
-					</a>
-				</div>
-				<!-- Putting the navigation menu in the footer
-
-					<div class="footer-column">
-						<h4>Navigation</h4>
-						<ul>
-						<li>
-						<a href="">
-						</a>
-						</li>
-						<ul>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <link href="style.css" rel="stylesheet">
+			<link href="scrollfix.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+      <title></title>
+   </head>
+   <body>
+      <div class="hero">
+         <div class="header-logo-block">
+            <a class="logo" href="#scroll-fix-header" title="Home" rel="home">
+            <img id="icon" src="images/UnicornICON.png"><img id="wordmark" src="images/Mythic Mechanix Text Logo.png">
+            </a>
+         </div>
+         <div id="scroll-fix-header" class="header scroll-fix">
+            <a class="mini-logo" href="/" title="Home" rel="home">
+            <img id="mini-icon" src="images/UnicornICON.png">
+            <img id="mini-wordmark" src="images/Mythic Mechanix Text Logo.png">
+            </a>
+            <ul id="headerUl" class="headerUl">
+               <li>
+                  <a href="index.html">Home</a>
+               </li>
+               <li>
+                  <a href="sponsorship.html">Sponsorship</a>
+               </li>
+               <li>
+                  <a href="resources.html">Resources</a>
+               </li>
+               <li>
+                  <a href="join.html">Join</a>
+               </li>
+               <li>
+                  <a href="team.html">Team</a>
+               </li>
+            </ul>
+            <div class="menuarea">
+               <p onclick="openNav()" class="menu cta"><i class="fas fa-bars"></i> Menu</p>
+            </div>
+         </div>
+      </div>
+      <div id="mobile__menu" class="overlay">
+         <a class="close" onclick="closeNav()">&times;</a>
+         <div class="overlay__content">
+            <a href="index.html">Home</a>
+            <a href="sponsorship.html">Sponsorship</a>
+            <a href="resources.html">Resources</a>
+            <a href="join.html">Join</a>
+            <a href="team.html">Team</a>
+         </div>
+      </div>
+      <div class="container">
+         <h1>
+            TEAM 7230 MYTHIC MECHANIX
+         </h1>
+         <div class="container-text">
+					 <div id="intro-p">
+            <p><span id="img1"><img src="images/robotbody.jpg"></span>Irvine High School’s robotics team is a student-run initiative led by passionate and driven leaders. Comprised of 35 student members, two industry mentors, one teacher mentor, and a team parent, Team 7230 believes in the engineering process, and maintaining a collaborative environment. Our members gain valuable skills in hardware, programming, CAD modeling, strategy, and marketing. Since the team’s creation last year, we have participated in multiple different competitions, including off season events such as Beach Blitz. Teams compete from all over the world against thousands of high schools in the First Robotics Competition. They are all given six weeks to program, build, and design a robot to complete the challenges of the current year’s competition.
+            </p>
 					</div>
-					-->
-				<div class="footer-column">
-					<h4>Connect with us</h4>
-					<a href="https://www.instagram.com/frc7230/">
-					<img class="media-icons" src="images/Media Icons/Instagram-Black.png">
-					</a>
-					<a href="https://www.facebook.com/MythicMechanix/">
-					<img class="media-icons" src="images/Media Icons/Facebook-Black.png">
-					</a>
-					<a href="https://www.youtube.com/channel/UC4z_Ppx8yC-3uJVExd_kvgQ">
-					<img class="media-icons" src="images/Media Icons/Youtube-Black-circle.png">
-					</a>
-				</div>
-				<div class="footer-column">
-					<h4>Contact Information</h4>
-					<p>We operate out of Irvine High School as a school club. If you want to contact us you can send us an email.
-						<br>
-						<br>
-						Irvine High School
-						<br>
-						4321 Walnut Ave,
-						<br>
-						Irvine, CA 92604
-						<br>
-						<br>
-						Email Address & Phone Number
-						<br>
-						<a href="mailto:FRCIrvine@gmail.com">FRCIrvine@gmail.com</a>
-						<br>
-						(949) 333-9540
-					</p>
-				</div>
-			</div>
-			<div style="text-align: center;">© 2019 Mythic Mechanix</div>
-		</footer>
-					</body>
-				</html>
+            <div class="photogrid">
+               <div class="photogrid-pic" id="pgp2"><img src="images/rearshotcrowd.jpg"></div>
+               <div class="photogrid-pic" id="pgp3"><img src="images/teamworking.jpeg"></div>
+               <div class="photogrid-pic" id="pgp3"><img src="images/robotteam.jpg"></div>
+            </div>
+            <h2>About Us</h2>
+            <p>Mythic Mechanix is Irvine High’s robotics team that competes against other robotics teams in field games hosted by an organization called FIRST. Through competitions and collaboration, students learn core engineering skills such as brainstorming, manufacturing, building, programming, CAD modeling, and marketing. The team is composed of 6 subteams (hardware, software, CAD, game strategy, and fundraising) which work together to complete a robot each year for different themes.</p>
+         </div>
+      </div>
+      <footer>
+         <div class="column-container">
+            <div class="footer-column" id="footerlogo">
+               <a href="index.html">
+               <img src="images/UnicornICON.png">
+               </a>
+            </div>
+            <!-- Putting the navigation menu in the footer
+               <div class="footer-column">
+               <h4>Navigation</h4>
+               <ul>
+               <li>
+               <a href="">
+               </a>
+               </li>
+               <ul>
+               </div>
+               -->
+            <div class="footer-column">
+               <h4>Connect with us</h4>
+               <a href="https://www.instagram.com/frc7230/">
+     					<i class="fab fa-instagram"></i>
+     					</a>
+     					<a href="https://www.facebook.com/MythicMechanix/">
+     					<i class="fab fa-facebook-f"></i>
+     					</a>
+     					<a href="https://www.youtube.com/channel/UC4z_Ppx8yC-3uJVExd_kvgQ">
+     					<i class="fab fa-youtube"></i>
+     					</a>
+            </div>
+            <div class="footer-column">
+               <h4>Contact Information</h4>
+               <p>We operate out of Irvine High School as a school club. If you want to contact us you can send us an email.
+                  <br>
+                  <br>
+                  Irvine High School
+                  <br>
+                  4321 Walnut Ave,
+                  <br>
+                  Irvine, CA 92604
+                  <br>
+                  Unified Arts Building, Room 9
+                  <br>
+                  <br>
+                  Email Address & Phone Number
+                  <br>
+                  Team email - <a id="footer-email" href="mailto:FRCIrvine@gmail.com">FRCIrvine@gmail.com</a>
+                  <br>
+                  Club advisor's email - <a id="footer-email" href="mailto:Archanajain@iusd.org">Archanajain@iusd.org</a>
+                  <br>
+                  (949) 333-9540
+               </p>
+            </div>
+         </div>
+         <div style="text-align: center;">© 2019 Mythic Mechanix</div>
+      </footer>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script src="mobile-menu.js" charset="utf-8"></script>
+      <script src="scrollfix.js" charset="utf-8"></script>
+   </body>
+</html>
