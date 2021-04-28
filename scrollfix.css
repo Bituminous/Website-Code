@@ -8,3 +8,18 @@
     display: inline;
   }
 }
+@media only screen and (max-width: 430px) {
+  #mini-wordmark {
+    padding: 42px 5px 42px 15px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  #mini-wordmark {
+    padding: 43px 5px 43px 15px;
+  }
+}
+@media only screen and (max-width: 355px) {
+  #mini-wordmark {
+    padding: 44px 5px 44px 15px;
+  }
+}

@@ -1,18 +1,19 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<!--
 Other FRC teams for reference: https://sagehillrobotics.org/ team330.org
 -->
 		<title>
-Team 7230 Mythic Mechanix
+Resources | Team 7230
 </title>
 		<link href="style.css" rel="stylesheet">
 		<link rel="icon" href="images/UnicornICON.png">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 			</head>
 			<body>
-				<header>
+				<header class="stickyheader">
 			<!-- navigation bar ▼ -->
 			<div id="header" class="header">
 				 <a class="mini-logo" href="/" title="Home" rel="home">
@@ -20,7 +21,7 @@ Team 7230 Mythic Mechanix
 				 <img id="mini-wordmark" src="images/Mythic Mechanix Text Logo.png">
 				 </a>
 				 <ul id="headerUl" class="headerUl">
-						<li>
+						 <li>
 							 <a href="index.html">Home</a>
 						</li>
 						<li>
@@ -30,10 +31,13 @@ Team 7230 Mythic Mechanix
 							 <a href="resources.html">Resources</a>
 						</li>
 						<li>
-							 <a href="join.html">Join</a>
+							 <a href="team.html">Team</a>
 						</li>
 						<li>
-							 <a href="team.html">Team</a>
+							 <a href="events.html">Events</a>
+						</li>
+						<li>
+							 <a href="join.html">Join</a>
 						</li>
 				 </ul>
 				 <div class="menuarea">
@@ -42,11 +46,13 @@ Team 7230 Mythic Mechanix
 				 <div id="mobile__menu" class="overlay">
 	          <a class="close" onclick="closeNav()">&times;</a>
 	          <div class="overlay__content">
-	             <a href="index.html">Home</a>
-	             <a href="sponsorship.html">Sponsorship</a>
-	             <a href="resources.html">Resources</a>
-	             <a href="join.html">Join</a>
-	             <a href="team.html">Team</a>
+							<a href="index.html">Home</a>
+							<a href="sponsorship.html">Sponsorship</a>
+							<a href="resources.html">Resources</a>
+							<a href="team.html">Team</a>
+							<a href="events.html">Events</a>
+							<a href="blog.html">Blog</a>
+							<a href="join.html">Join</a>
 	          </div>
 	       </div>
 			</div>
@@ -58,13 +64,13 @@ Team 7230 Mythic Mechanix
 			<!-- "exrsrc" used to align the logos and text -->
 				<h2> FIRST Robotics</h2>
 				<div class="exrsrc">
-					<a href="https://www.firstinspires.org/robotics"><img src="images/FIRST_logo.svg"></a>
-					<p>“FIRST: (<b>F</b>or <b>I</b>nspiration and <b>R</b>ecognition of <b>S</b>cience and <b>T</b>echnology)
-FIRST is a non-profit organization that works to provide young people with engineering skills not only in building robots but in all of the STEM-related fields. It hosts four different robotic competitions annually for different ages to inspire the students’ interest in science and technology.” </p>
+					<a href="https://www.firstinspires.org/robotics"><img src="images/FIRST_Logo.svg"></a>
+					<p>&quot;FIRST: (<b>F</b>or <b>I</b>nspiration and <b>R</b>ecognition of <b>S</b>cience and <b>T</b>echnology)
+FIRST is a non-profit organization that works to provide young people with engineering skills not only in building robots but in all of the STEM-related fields. It hosts four different robotic competitions annually for different ages to inspire the students&apos; interest in science and technology.&quot;</p>
 				</div>
 				<h2>Irvine High School</h2>
 				<div class="exrsrc">
-					<a href="https://irvinehigh.iusd.org/"><img src="images/logo-silver 1.jpg"></a>
+					<a href="https://irvinehigh.iusd.org/"><img src="images/Logo-silver 1.jpg"></a>
 					<p>At Irvine High School, emphasis is placed on helping students realize their individual interests, abilities, and special talents, while recognizing their personal and career goals. School wide our culture is founded on the values of Integrity, Honoring Self and Others and Social Responsibility for which the definitions have been defined by our students who also understand that these values are at the forefront of what it is to be an Irvine Vaquero.</p>
 				</div>
 				<h2>Our Youtube Channel</h2>
@@ -94,7 +100,7 @@ FIRST is a non-profit organization that works to provide young people with engin
 						<ul>
 					</div>
 					-->
-				<div class="footer-column">
+				<div id="social" class="footer-column">
 					<h4>Connect with us</h4>
 					<a href="https://www.instagram.com/frc7230/">
 				 <i class="fab fa-instagram"></i>
@@ -120,7 +126,9 @@ FIRST is a non-profit organization that works to provide young people with engin
 						<br>
 						Email Address & Phone Number
 						<br>
-						<a href="mailto:FRCIrvine@gmail.com">FRCIrvine@gmail.com</a>
+						Team email - <a id="footer-email" href="mailto:FRCIrvine@gmail.com">FRCIrvine@gmail.com</a>
+						<br>
+						Club advisor's email - <a id="footer-email" href="mailto:Archanajain@iusd.org">Archanajain@iusd.org</a>
 						<br>
 						(949) 333-9540
 					</p>

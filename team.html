@@ -1,60 +1,70 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<!--
 Other FRC teams for reference: https://sagehillrobotics.org/ team330.org
 -->
 		<title>
-Team 7230 Mythic Mechanix
+Teams | Team 7230
 </title>
 		<link href="https://fonts.googleapis.com/css?family=Muli|Overpass&display=swap" rel="stylesheet">
 		<link href="style.css" rel="stylesheet">
 		<link rel="icon" href="images/UnicornICON.png">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 			</head>
 			<body>
-				<div id="header" class="header">
-					 <a class="mini-logo" href="/" title="Home" rel="home">
-					 <img id="mini-icon" src="images/UnicornICON.png">
-					 <img id="mini-wordmark" src="images/Mythic Mechanix Text Logo.png">
-					 </a>
-					 <ul id="headerUl" class="headerUl">
-							<li>
-								 <a href="index.html">Home</a>
-							</li>
-							<li>
-								 <a href="sponsorship.html">Sponsorship</a>
-							</li>
-							<li>
-								 <a href="resources.html">Resources</a>
-							</li>
-							<li>
-								 <a href="join.html">Join</a>
-							</li>
-							<li>
-								 <a href="team.html">Team</a>
-							</li>
-					 </ul>
-					 <div class="menuarea">
-							<p onclick="openNav()" class="menu cta"><i class="fas fa-bars"></i> Menu</p>
-					 </div>
-					 <div id="mobile__menu" class="overlay">
-							<a class="close" onclick="closeNav()">&times;</a>
-							<div class="overlay__content">
-								 <a href="index.html">Home</a>
-								 <a href="sponsorship.html">Sponsorship</a>
-								 <a href="resources.html">Resources</a>
-								 <a href="join.html">Join</a>
-								 <a href="team.html">Team</a>
-							</div>
-					 </div>
-				</div>
+				<header class="stickyheader">
+						<div id="header" class="header">
+							 <a class="mini-logo" href="/" title="Home" rel="home">
+							 <img id="mini-icon" src="images/UnicornICON.png">
+							 <img id="mini-wordmark" src="images/Mythic Mechanix Text Logo.png">
+							 </a>
+							 <ul id="headerUl" class="headerUl">
+									 <li>
+										 <a href="index.html">Home</a>
+									</li>
+									<li>
+										 <a href="sponsorship.html">Sponsorship</a>
+									</li>
+									<li>
+										 <a href="resources.html">Resources</a>
+									</li>
+									<li>
+										 <a href="team.html">Team</a>
+									</li>
+									<li>
+										 <a href="events.html">Events</a>
+									</li>
+									<li>
+										 <a href="blog.html">Blog</a>
+									</li>
+									<li>
+										 <a href="join.html">Join</a>
+									</li>
+							 </ul>
+							 <div class="menuarea">
+									<p onclick="openNav()" class="menu cta"><i class="fas fa-bars"></i> Menu</p>
+							 </div>
+							 <div id="mobile__menu" class="overlay">
+									<a class="close" onclick="closeNav()">&times;</a>
+									<div class="overlay__content">
+										<a href="index.html">Home</a>
+										<a href="sponsorship.html">Sponsorship</a>
+										<a href="resources.html">Resources</a>
+										<a href="team.html">Team</a>
+										<a href="events.html">Events</a>
+										<a href="blog.html">Blog</a>
+										<a href="join.html">Join</a>
+									</div>
+							 </div>
+						</div>
 			</header>
 		<div class="container" id="plain">
 		<h1>Teams</h1>
 		<!-- Overview collection of teams and mentors-->
 		<h2 style="margin-top: 2%;margin-right: 10%;margin-left: 10%;margin-bottom: 30px;line-height: 1.5;">Mentors</h2>
-			<div id="team-mentor">
+			<div class="team-mentor">
 				<div>Jatan Shah: Our hardware and CAD mentor. A mechanical engineer.</div>
 				<div>Archana Jain: Our club advisor. Started the engineering department at Irvine High School.</div>
 				<div>Michael Polucha: Our software mentor. A software engineer.</div>
@@ -70,29 +80,33 @@ Team 7230 Mythic Mechanix
 					</a>
 				</div>
 				<div class="team-column">
-					<a href="#info-hardware">
+					<a href="#info-software">
 						<div class="team-column-pic" id="p-soft">
+							<i class="fas fa-code"></i>
 						</div>
 						<h2>Software</h2>
 					</a>
 				</div>
 				<div class="team-column">
-					<a href="#info-hardware">
+					<a href="#info-pr">
 						<div class="team-column-pic" id="p-prb">
+							<i class="fas fa-money-check"></i>
 						</div>
 						<h2>PR/Business</h2>
 					</a>
 				</div>
 				<div class="team-column">
-					<a href="#info-hardware">
+					<a href="#info-cad">
 						<div class="team-column-pic" id="p-cad">
+							<i class="fas fa-cube"></i>
 						</div>
 						<h2>CAD</h2>
 					</a>
 				</div>
 				<div class="team-column">
-				<a href="#info-hardware">
+				<a href="#info-strategy">
 					<div class="team-column-pic" id="p-strat">
+						<i class="fas fa-chess"></i>
 					</div>
 					<h2>Strategy/Drive Team</h2>
 				</div>
@@ -109,14 +123,14 @@ Team 7230 Mythic Mechanix
 				</div>
 			<div id="info-pr">
 			<h3>PR/Business</h3>
-				<p>HBusiness is concerned with ensuring that the team has enough funds for registration as well as building the robot. We will be contacting corporations and building a pitch for our team. We are in charge of finding and applying for sponsorships, in addition to leading outreach through community teams and FTC teams.</p>
+				<p>Business is concerned with ensuring that the team has enough funds for registration as well as building the robot. We will be contacting corporations and building a pitch for our team. We are in charge of finding and applying for sponsorships, in addition to leading outreach through community teams and FTC teams.</p>
 			</div>
 			<div id="info-cad">
 			<h3>CAD</h3>
 				<p>CAD is concerned with developing various structures and designs for the robot and they use the 3D modeling software Solidworks. We mainly work with Hardware, acting as the initial blueprint that hardware uses to build a robot for competition. In addition, we model a robot with Strategy/Drive Team so that the robot that we models meets the plan we have for competition before hardware begins building the robot. Please don’t be intimidated by lack of knowledge as you will be trained and not before long, you will be able to model robots that the team may use.</p>
 				</div>
 			<div id="info-strategy">
-			<h3>Strategy</h3>
+			<h3>Strategy/Drive Team</h3>
 				<p>Strategy/Drive Team is in charge of observing the competition restraints and rules to develop a plan to carry out on competition day, as well as carrying around the robot and driving it. Many of us are also in other subteams such as Software and Hardware so that our plans can be successfully incorporated into the robot.</p>
 				</div>
 		</div>
@@ -141,7 +155,7 @@ Team 7230 Mythic Mechanix
 						<ul>
 					</div>
 					-->
-				<div class="footer-column">
+				<div id="social" class="footer-column">
 					<h4>Connect with us</h4>
 					<a href="https://www.instagram.com/frc7230/">
 					<i class="fab fa-instagram"></i>
@@ -167,12 +181,15 @@ Team 7230 Mythic Mechanix
 						<br>
 						Email Address & Phone Number
 						<br>
-						<a id="footer-email" href="mailto:FRCIrvine@gmail.com">FRCIrvine@gmail.com</a>
+						Team email - <a id="footer-email" href="mailto:FRCIrvine@gmail.com">FRCIrvine@gmail.com</a>
+						<br>
+						Club advisor's email - <a id="footer-email" href="mailto:Archanajain@iusd.org">Archanajain@iusd.org</a>
 						<br>
 						(949) 333-9540
 					</p>
 				</div>
 			</div>
+			<div style="text-align: center;">&copy; 2019 Mythic Mechanix</div>
 		</footer>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="mobile-menu.js" charset="utf-8"></script>
