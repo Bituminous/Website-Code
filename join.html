@@ -5,50 +5,68 @@
 Other FRC teams for reference: https://sagehillrobotics.org/ team330.org
 -->
 		<title>
-Team 7230 Mythic Mechanix
+Join | Team 7230
 </title>
 		<link href="https://fonts.googleapis.com/css?family=Muli|Overpass&display=swap" rel="stylesheet">
 		<link href="style.css" rel="stylesheet">
 		<link rel="icon" href="images/UnicornICON.png">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 			</head>
 			<body>
-				<header>
-			<!-- navigation bar ▼ -->
-			<div id="header" class="header">
-				 <a class="mini-logo" href="/" title="Home" rel="home">
-				 <img id="mini-icon" src="images/UnicornICON.png">
-				 <img id="mini-wordmark" src="images/Mythic Mechanix Text Logo.png">
-				 </a>
-				 <ul id="headerUl" class="headerUl">
-						<li>
-							 <a href="index.html">Home</a>
-						</li>
-						<li>
-							 <a href="sponsorship.html">Sponsorship</a>
-						</li>
-						<li>
-							 <a href="resources.html">Resources</a>
-						</li>
-						<li>
-							 <a href="join.html">Join</a>
-						</li>
-						<li>
-							 <a href="team.html">Team</a>
-						</li>
-				 </ul>
-				 <div class="menuarea">
-						<p onclick="openNav()" class="menu cta"><i class="fas fa-bars"></i> Menu</p>
-				 </div>
-			</div>
+				<header class="stickyheader">
+						<!-- navigation bar ▼ -->
+						<div id="header" class="header">
+							 <a class="mini-logo" href="/" title="Home" rel="home">
+							 <img id="mini-icon" src="images/UnicornICON.png">
+							 <img id="mini-wordmark" src="images/Mythic Mechanix Text Logo.png">
+							 </a>
+							 <ul id="headerUl" class="headerUl">
+									 <li>
+										 <a href="index.html">Home</a>
+									</li>
+									<li>
+										 <a href="sponsorship.html">Sponsorship</a>
+									</li>
+									<li>
+										 <a href="resources.html">Resources</a>
+									</li>
+									<li>
+										 <a href="team.html">Team</a>
+									</li>
+									<li>
+										 <a href="events.html">Events</a>
+									</li>
+									<li>
+										 <a href="blog.html">Blog</a>
+									</li>
+									<li>
+										 <a href="join.html">Join</a>
+									</li>
+							 </ul>
+							 <div class="menuarea">
+									<p onclick="openNav()" class="menu cta"><i class="fas fa-bars"></i> Menu</p>
+							 </div>
+			                 <div id="mobile__menu" class="overlay">
+				                <a class="close" onclick="closeNav()">&times;</a>
+			                    <div class="overlay__content">
+														<a href="index.html">Home</a>
+														<a href="sponsorship.html">Sponsorship</a>
+														<a href="resources.html">Resources</a>
+														<a href="team.html">Team</a>
+														<a href="events.html">Events</a>
+														<a href="join.html">Join</a>
+			                    </div>
+			                </div>
+						</div>
 		</header>
 						</div>
-						<div id="sparkdark" class="container">
-						<div id="spark">
-						<center>
-						<a class="asp-embed-link" href="https://spark.adobe.com/page/v7IIEjwN81j4j/" target="_blank"><img src="https://spark.adobe.com/page/v7IIEjwN81j4j/embed.jpg?buster=1569037388403" alt="Join Team 7230" style="width:100%" border="0" /></a>
-						</div>
-						</center>
+						<div class="container">
+							<center>
+								<div id="spark">
+									<a class="asp-embed-link" href="https://spark.adobe.com/page/v7IIEjwN81j4j/" target="_blank"><img src="https://spark.adobe.com/page/v7IIEjwN81j4j/embed.jpg?buster=1569037388403" alt="Join Team 7230" style="width:100%" border="0" /></a>
+								</div>
+							</center>
 						</div>
 		<footer>
 			<div class="column-container">
@@ -69,7 +87,7 @@ Team 7230 Mythic Mechanix
 						<ul>
 					</div>
 					-->
-				<div class="footer-column">
+				<div id="social" class="footer-column">
 					<h4>Connect with us</h4>
 					<a href="https://www.instagram.com/frc7230/">
 					<i class="fab fa-instagram"></i>
@@ -95,12 +113,15 @@ Team 7230 Mythic Mechanix
 						<br>
 						Email Address & Phone Number
 						<br>
-						<a href="mailto:FRCIrvine@gmail.com">FRCIrvine@gmail.com</a>
+						Team email - <a id="footer-email" href="mailto:FRCIrvine@gmail.com">FRCIrvine@gmail.com</a>
+						<br>
+						Club advisor's email - <a id="footer-email" href="mailto:Archanajain@iusd.org">Archanajain@iusd.org</a>
 						<br>
 						(949) 333-9540
 					</p>
 				</div>
 			</div>
+			<div style="text-align: center;">&copy; 2019 Mythic Mechanix</div>
 		</footer>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="mobile-menu.js" charset="utf-8"></script>
