@@ -1,0 +1,10 @@
+#mini-icon {
+    opacity: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  #mini-wordmark {
+    opacity: 1;
+    display: inline;
+  }
+}

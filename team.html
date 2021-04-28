@@ -1,8 +1,8 @@
 ﻿<!DOCTYPE html>
 <html>
 	<head>
-		<!-- 
-Other FRC teams for reference: https://sagehillrobotics.org/ team330.org 
+		<!--
+Other FRC teams for reference: https://sagehillrobotics.org/ team330.org
 -->
 		<title>
 Team 7230 Mythic Mechanix
@@ -10,45 +10,46 @@ Team 7230 Mythic Mechanix
 		<link href="https://fonts.googleapis.com/css?family=Muli|Overpass&display=swap" rel="stylesheet">
 		<link href="style.css" rel="stylesheet">
 		<link rel="icon" href="images/UnicornICON.png">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 			</head>
 			<body>
-				<header>
-			<!-- navigation bar ▼ -->
-			<img class="headone" src="images/UnicornICON.png">
-			<div class="headtwo">
-				<a href="index.html">
-				<img src="images/Mythic Mechanix Text Logo.png">
-				</a>
-			</div>
-			<div class="headthree">
-				<ul>
-					<li>
-						<a href="index.html">Home</a>
-					</li>
-					<li>
-						<a href="sponsorship.html">Sponsorship</a>
-					</li>
-					<!-- Dropdown tab
-						<li class="dropdown">
-						  <a href="FRC Website_Home.html" class="droplink">Sponsorship</a>
-						  <div class="droplist">
-						    <a href="FRC Website_Home.html">Sponsors</a>
-						    <a href="FRC Website_Home.html">Become a Sponsor</a>
-						  </div>
-						</li>
-						-->
-					<li>
-						<a href="resources.html">Resources</a>
-					</li>
-					<li>
-						<a href="join.html">Join</a>
-					</li>
-					<li>
-						<a href="team.html">Team</a>
-					</li>
-				</ul>
-			</div>
-		</header>
+				<div id="header" class="header">
+					 <a class="mini-logo" href="/" title="Home" rel="home">
+					 <img id="mini-icon" src="images/UnicornICON.png">
+					 <img id="mini-wordmark" src="images/Mythic Mechanix Text Logo.png">
+					 </a>
+					 <ul id="headerUl" class="headerUl">
+							<li>
+								 <a href="index.html">Home</a>
+							</li>
+							<li>
+								 <a href="sponsorship.html">Sponsorship</a>
+							</li>
+							<li>
+								 <a href="resources.html">Resources</a>
+							</li>
+							<li>
+								 <a href="join.html">Join</a>
+							</li>
+							<li>
+								 <a href="team.html">Team</a>
+							</li>
+					 </ul>
+					 <div class="menuarea">
+							<p onclick="openNav()" class="menu cta"><i class="fas fa-bars"></i> Menu</p>
+					 </div>
+					 <div id="mobile__menu" class="overlay">
+							<a class="close" onclick="closeNav()">&times;</a>
+							<div class="overlay__content">
+								 <a href="index.html">Home</a>
+								 <a href="sponsorship.html">Sponsorship</a>
+								 <a href="resources.html">Resources</a>
+								 <a href="join.html">Join</a>
+								 <a href="team.html">Team</a>
+							</div>
+					 </div>
+				</div>
+			</header>
 		<div class="container" id="plain">
 		<h1>Teams</h1>
 		<!-- Overview collection of teams and mentors-->
@@ -63,6 +64,7 @@ Team 7230 Mythic Mechanix
 				<div class="team-column">
 					<a href="#info-hardware">
 						<div class="team-column-pic" id="p-hard">
+							<i class="fas fa-tools"></i>
 						</div>
 						<h2>Hardware</h2>
 					</a>
@@ -128,7 +130,7 @@ Team 7230 Mythic Mechanix
 					</a>
 				</div>
 				<!-- Putting the navigation menu in the footer
-				
+
 					<div class="footer-column">
 						<h4>Navigation</h4>
 						<ul>
@@ -142,13 +144,13 @@ Team 7230 Mythic Mechanix
 				<div class="footer-column">
 					<h4>Connect with us</h4>
 					<a href="https://www.instagram.com/frc7230/">
-					<img class="media-icons" src="images/Media Icons/Instagram-Black.png">
+					<i class="fab fa-instagram"></i>
 					</a>
 					<a href="https://www.facebook.com/MythicMechanix/">
-					<img class="media-icons" src="images/Media Icons/Facebook-Black.png">
+					<i class="fab fa-facebook-f"></i>
 					</a>
 					<a href="https://www.youtube.com/channel/UC4z_Ppx8yC-3uJVExd_kvgQ">
-					<img class="media-icons" src="images/Media Icons/Youtube-Black-circle.png">
+					<i class="fab fa-youtube"></i>
 					</a>
 				</div>
 				<div class="footer-column">
@@ -165,13 +167,15 @@ Team 7230 Mythic Mechanix
 						<br>
 						Email Address & Phone Number
 						<br>
-						<a href="mailto:FRCIrvine@gmail.com">FRCIrvine@gmail.com</a>
+						<a id="footer-email" href="mailto:FRCIrvine@gmail.com">FRCIrvine@gmail.com</a>
 						<br>
 						(949) 333-9540
 					</p>
 				</div>
 			</div>
 		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="mobile-menu.js" charset="utf-8"></script>
+		<script src="universal-nav.js" charset="utf-8"></script>
 	</body>
 </html>
-
