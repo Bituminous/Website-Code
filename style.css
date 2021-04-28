@@ -646,6 +646,7 @@ color: #5b5b5b;
   .exrsrc {
     flex-direction: column;
     margin: 0 auto;
+	overflow:auto;
   }
   .exrsrc a {
     width: 50%;
